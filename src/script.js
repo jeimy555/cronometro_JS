@@ -43,7 +43,7 @@ function detener() {
     botonDetener.classList.add("on");
     clearInterval(iniciarTiempo);
     if(ms!=0 || sg!=0 || mn!=0 || hr==0){
-        document.querySelector('.iniciar').innerHTML="Reanudar";
+        document.querySelector('.iniciar ').innerHTML="Reanudar";
     }
     
 
